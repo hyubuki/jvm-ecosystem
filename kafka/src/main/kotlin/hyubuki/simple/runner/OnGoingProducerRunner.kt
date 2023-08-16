@@ -1,16 +1,19 @@
 package hyubuki.simple.runner
 
-import hyubuki.simple.producer.SimpleProducer
+import hyubuki.simple.consumer.ConfigurableProducer
 
 
 fun main() {
 
-    val simpleProducer = SimpleProducer<String, String>()
+    val producer = ConfigurableProducer<String, String>(
+            brokers = listOf("localhost:9092", "localhost:9093", "localhost:9094"),
+            topicName = "multi-topic-test"
+    )
 
-    var i: Int = 1;
-    while (true) {
-        simpleProducer.sendValue("test message, cnt : ${i++}")
+    for (i in 1..1000) {
+        producer.sendValue("test message, cnt : $i")
+        Thread.sleep(500L)
     }
 
-    simpleProducer.closeAndFlush()
+    producer.closeAndFlush()
 }
