@@ -1,4 +1,4 @@
-package io.hyubuki.app
+package io.hyubuki.app.manual
 
 import jakarta.servlet.ServletRequest
 import jakarta.servlet.http.HttpServletResponse
