@@ -1,7 +1,7 @@
 package com.hyubuki
 
 import com.hyubuki.config.AuthFilter
-import com.hyubuki.config.LoggingFilter
+import com.hyubuki.config.GlobalLoggingFilter
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.string.shouldContain
 import org.junit.jupiter.api.Test
@@ -23,7 +23,7 @@ class GatewayAppTest {
     lateinit var routeLocator: RouteLocator
 
     @Autowired
-    lateinit var loggingFilter: LoggingFilter
+    lateinit var loggingFilter: GlobalLoggingFilter
 
     @Test
     fun `route 목록을 검증한다`() {
