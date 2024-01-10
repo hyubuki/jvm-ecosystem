@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  app-ct2:
+    image: hyubuki/app-img
+    ports:
+      - "80:8080"
