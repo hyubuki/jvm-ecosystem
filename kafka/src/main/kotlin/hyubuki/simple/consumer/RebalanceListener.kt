@@ -4,8 +4,8 @@ import mu.KLogger
 import mu.KotlinLogging
 import org.apache.kafka.clients.consumer.ConsumerRebalanceListener
 import org.apache.kafka.common.TopicPartition
-import hyubuki.log.infoGreen
-import hyubuki.log.infoWarn
+import io.hyubuki.log.infoGreen
+import io.hyubuki.log.infoWarn
 
 
 class RebalanceListener : ConsumerRebalanceListener {

@@ -6,7 +6,7 @@ import org.apache.kafka.clients.producer.KafkaProducer
 import org.apache.kafka.clients.producer.ProducerConfig
 import org.apache.kafka.clients.producer.ProducerRecord
 import org.apache.kafka.common.serialization.StringSerializer
-import hyubuki.log.infoGreen
+import io.hyubuki.log.infoGreen
 import java.util.*
 
 private val log: KLogger = KotlinLogging.logger {}

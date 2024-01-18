@@ -1,4 +1,4 @@
-package hyubuki.log
+package io.hyubuki.log
 
 import mu.KLogger
 

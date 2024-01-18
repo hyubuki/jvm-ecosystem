@@ -1,4 +1,4 @@
-package hyubuki.io.performance
+package io.hyubuki.performance
 
 import mu.KLogger
 import mu.KotlinLogging

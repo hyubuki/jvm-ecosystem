@@ -1,6 +1,6 @@
 package hyubuki
 
-import hyubuki.io.FileIOManager
+import io.hyubuki.io.FileIOManager
 
 class SqlGenerator
 

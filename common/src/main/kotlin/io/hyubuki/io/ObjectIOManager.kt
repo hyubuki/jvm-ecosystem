@@ -1,4 +1,4 @@
-package hyubuki.io
+package io.hyubuki.io
 
 import java.io.FileInputStream
 import java.io.ObjectInputStream

@@ -1,10 +1,13 @@
-package hyubuki.io.performance
+package io.hyubuki.io
 
-import hyubuki.io.IOManager
+import io.hyubuki.log.infoGreen
 import java.io.File
 
-class TestNonBufferedFileIOManager : IOManager<String>() {
+class FileIOManager : IOManager<String>() {
 
+    /**
+     * 이름을 포함한 경로를 넣는다.
+     */
     override fun save(content: String, basePath: String, vararg subPaths: String) {
 
         val fullPath = convertPath(basePath, *subPaths)
@@ -12,7 +15,7 @@ class TestNonBufferedFileIOManager : IOManager<String>() {
 
         File(fullPath.toUri()).writeText(content)
 
-        log.info { "File Saved Successfully !! $fullPath" }
+        log.infoGreen { "File Saved Successfully !! $fullPath" }
     }
 
     fun load(basePath: String, vararg subPath: String): String {

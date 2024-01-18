@@ -1,7 +1,8 @@
-package hyubuki.io
+package io.hyubuki
 
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
+import io.hyubuki.io.FileIOManager
 
 class FileIOManagerTest : FunSpec({
 

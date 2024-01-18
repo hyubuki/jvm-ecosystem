@@ -1,4 +1,4 @@
-package hyubuki.io
+package io.hyubuki.io
 
 import mu.KLogger
 import mu.KotlinLogging

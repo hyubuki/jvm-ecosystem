@@ -2,7 +2,7 @@ package hyubuki
 
 import mu.KLogger
 import mu.KotlinLogging
-import hyubuki.log.infoGreen
+import io.hyubuki.log.infoGreen
 
 @Suppress("SqlResolve", "SqlNoDataSourceInspection")
 class SqlContentGenerator {

@@ -1,6 +1,6 @@
 package hyubuki.serialize.javagod
 
-import hyubuki.io.ObjectIOManager
+import io.hyubuki.io.ObjectIOManager
 
 /**
  * 자바의 신 Serialize 실습
