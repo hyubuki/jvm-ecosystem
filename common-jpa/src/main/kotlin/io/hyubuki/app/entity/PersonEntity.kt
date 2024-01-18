@@ -1,10 +1,10 @@
-package io.hyubuki.docker.app
+package io.hyubuki.app.entity
 
 import jakarta.persistence.*
 import java.util.*
 
 @Entity
-class Person {
+class PersonEntity {
 
 
     @Id
