@@ -6,5 +6,5 @@ dependencies {
 }
 
 ext {
-    imageName = 'hyubuki/simple-app'
+    imageName = 'hyubuki/app'
 }
