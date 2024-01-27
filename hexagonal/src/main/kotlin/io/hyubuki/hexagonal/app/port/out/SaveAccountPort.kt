@@ -4,5 +4,5 @@ import io.hyubuki.hexagonal.app.BankAccount
 
 
 interface SaveAccountPort {
-    fun save(bankAccount: BankAccount?)
+    fun save(bankAccount: BankAccount)
 }
