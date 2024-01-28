@@ -1,6 +1,6 @@
-package io.hyubuki.hexagonal.app.repository
+package io.hyubuki.hexagonal.app.account.adapter.out
 
-import io.hyubuki.hexagonal.app.entity.BankAccountEntity
+import io.hyubuki.hexagonal.app.account.entity.BankAccountEntity
 
 import org.springframework.data.jpa.repository.JpaRepository
 

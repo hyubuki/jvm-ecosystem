@@ -1,7 +1,7 @@
-package io.hyubuki.hexagonal.app.mapper
+package io.hyubuki.hexagonal.app.account.mapper
 
-import io.hyubuki.hexagonal.app.BankAccount
-import io.hyubuki.hexagonal.app.entity.BankAccountEntity
+import io.hyubuki.hexagonal.app.account.domain.BankAccount
+import io.hyubuki.hexagonal.app.account.entity.BankAccountEntity
 import org.springframework.stereotype.Component
 
 

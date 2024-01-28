@@ -1,11 +1,11 @@
-package io.hyubuki.hexagonal.app.adapter
+package io.hyubuki.hexagonal.app.account.adapter
 
-import io.hyubuki.hexagonal.app.BankAccount
-import io.hyubuki.hexagonal.app.entity.BankAccountEntity
-import io.hyubuki.hexagonal.app.mapper.BankAccountMapper
-import io.hyubuki.hexagonal.app.port.out.LoadAccountPort
-import io.hyubuki.hexagonal.app.port.out.SaveAccountPort
-import io.hyubuki.hexagonal.app.repository.BankAccountSpringDataRepository
+import io.hyubuki.hexagonal.app.account.domain.BankAccount
+import io.hyubuki.hexagonal.app.account.entity.BankAccountEntity
+import io.hyubuki.hexagonal.app.account.mapper.BankAccountMapper
+import io.hyubuki.hexagonal.app.account.application.port.out.LoadAccountPort
+import io.hyubuki.hexagonal.app.account.application.port.out.SaveAccountPort
+import io.hyubuki.hexagonal.app.account.adapter.out.BankAccountSpringDataRepository
 import org.springframework.stereotype.Repository
 
 

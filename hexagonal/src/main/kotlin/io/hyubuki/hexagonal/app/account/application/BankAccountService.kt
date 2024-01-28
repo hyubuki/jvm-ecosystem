@@ -1,11 +1,10 @@
-package io.hyubuki.hexagonal.app.service
+package io.hyubuki.hexagonal.app.account.application
 
-import io.hyubuki.hexagonal.app.BankAccount
-import io.hyubuki.hexagonal.app.port.`in`.DepositUseCase
-import io.hyubuki.hexagonal.app.port.`in`.WithdrawUseCase
-import io.hyubuki.hexagonal.app.port.out.LoadAccountPort
-import io.hyubuki.hexagonal.app.port.out.SaveAccountPort
-import org.springframework.beans.factory.annotation.Autowired
+import io.hyubuki.hexagonal.app.account.domain.BankAccount
+import io.hyubuki.hexagonal.app.account.application.port.`in`.DepositUseCase
+import io.hyubuki.hexagonal.app.account.application.port.`in`.WithdrawUseCase
+import io.hyubuki.hexagonal.app.account.application.port.out.LoadAccountPort
+import io.hyubuki.hexagonal.app.account.application.port.out.SaveAccountPort
 import org.springframework.stereotype.Service
 import java.math.BigDecimal
 

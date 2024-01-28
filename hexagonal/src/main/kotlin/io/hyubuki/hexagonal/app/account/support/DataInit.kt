@@ -1,8 +1,7 @@
-package io.hyubuki.hexagonal.app.support
+package io.hyubuki.hexagonal.app.account.support
 
-import io.hyubuki.hexagonal.app.BankAccount
-import io.hyubuki.hexagonal.app.entity.BankAccountEntity
-import io.hyubuki.hexagonal.app.repository.BankAccountSpringDataRepository
+import io.hyubuki.hexagonal.app.account.entity.BankAccountEntity
+import io.hyubuki.hexagonal.app.account.adapter.out.BankAccountSpringDataRepository
 import jakarta.annotation.PostConstruct
 import org.springframework.stereotype.Component
 

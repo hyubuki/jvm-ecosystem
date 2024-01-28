@@ -1,4 +1,4 @@
-package io.hyubuki.hexagonal.app.entity
+package io.hyubuki.hexagonal.app.account.entity
 
 import jakarta.persistence.*
 import java.math.BigDecimal

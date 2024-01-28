@@ -1,4 +1,4 @@
-package io.hyubuki.hexagonal.app
+package io.hyubuki.hexagonal.app.account.domain
 
 import java.math.BigDecimal
 

@@ -1,7 +1,7 @@
-package io.hyubuki.hexagonal.app.controller
+package io.hyubuki.hexagonal.app.account.adapter.`in`.web
 
-import io.hyubuki.hexagonal.app.port.`in`.DepositUseCase
-import io.hyubuki.hexagonal.app.port.`in`.WithdrawUseCase
+import io.hyubuki.hexagonal.app.account.application.port.`in`.DepositUseCase
+import io.hyubuki.hexagonal.app.account.application.port.`in`.WithdrawUseCase
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
