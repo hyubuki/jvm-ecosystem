@@ -1,7 +1,7 @@
 package com.hyubuki
 
-import com.hyubuki.config.AuthFilter
-import com.hyubuki.config.GlobalLoggingFilter
+import io.hyubuki.config.AuthFilter
+import io.hyubuki.config.GlobalLoggingFilter
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.string.shouldContain
 import jakarta.annotation.PostConstruct

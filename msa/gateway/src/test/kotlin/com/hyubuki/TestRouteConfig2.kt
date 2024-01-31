@@ -1,7 +1,7 @@
 package com.hyubuki
 
-import com.hyubuki.config.AuthFilter
-import com.hyubuki.config.GlobalLoggingFilter
+import io.hyubuki.config.AuthFilter
+import io.hyubuki.config.GlobalLoggingFilter
 import jakarta.ws.rs.GET
 import org.springframework.boot.test.context.TestConfiguration
 import org.springframework.cloud.gateway.filter.GatewayFilter
@@ -17,7 +17,8 @@ import java.lang.IllegalArgumentException
 
 @TestConfiguration
 class TestRouteConfig2(private val loggingFilter: GlobalLoggingFilter,
-                       private val authFilter: AuthFilter) {
+                       private val authFilter: AuthFilter
+) {
 
     @Bean("testRoute")
     fun testRoute(builder: RouteLocatorBuilder, loggingFilter: GlobalLoggingFilter): RouteLocator {

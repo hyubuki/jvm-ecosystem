@@ -1,4 +1,4 @@
-package com.hyubuki
+package io.hyubuki
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

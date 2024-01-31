@@ -1,4 +1,4 @@
-package com.hyubuki.config
+package io.hyubuki.config
 
 import org.springframework.cloud.gateway.filter.GatewayFilter
 import org.springframework.cloud.gateway.filter.GatewayFilterChain

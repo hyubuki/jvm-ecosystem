@@ -1,4 +1,4 @@
-package com.hyubuki.config
+package io.hyubuki.config
 
 import mu.KotlinLogging
 import org.springframework.cloud.gateway.filter.GatewayFilter
