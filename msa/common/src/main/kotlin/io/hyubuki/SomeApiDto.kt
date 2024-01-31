@@ -1,3 +1,4 @@
 package io.hyubuki
 
-data class SomeApiDto(val message: String)
+data class SomeApiDto(val message: String) {
+}
