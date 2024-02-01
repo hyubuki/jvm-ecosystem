@@ -1,4 +1,4 @@
-package io.hyubuki.springevent.app.event
+package io.hyubuki.springevent.app.support
 
 import com.p6spy.engine.logging.Category
 import com.p6spy.engine.spy.P6SpyOptions
