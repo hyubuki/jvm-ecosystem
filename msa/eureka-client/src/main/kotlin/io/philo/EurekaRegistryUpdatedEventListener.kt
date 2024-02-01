@@ -1,7 +1,6 @@
 package io.hyubuki
 
 import mu.KotlinLogging
-import org.springframework.context.ApplicationEventPublisher
 import org.springframework.context.event.EventListener
 import org.springframework.stereotype.Component
 
