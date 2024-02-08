@@ -1,4 +1,4 @@
-package io.hyubuki.hexagonal.app.account.tmp_rest
+package io.hyubuki.app
 
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
