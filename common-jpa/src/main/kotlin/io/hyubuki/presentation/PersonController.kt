@@ -1,7 +1,7 @@
-package io.hyubuki.app.presentation
+package io.hyubuki.presentation
 
-import io.hyubuki.app.entity.PersonEntity
-import io.hyubuki.app.repository.PersonRepository
+import io.hyubuki.entity.PersonEntity
+import io.hyubuki.repository.PersonRepository
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController

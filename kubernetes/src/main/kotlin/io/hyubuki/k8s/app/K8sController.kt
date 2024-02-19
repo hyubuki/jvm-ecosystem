@@ -1,7 +1,7 @@
 package io.hyubuki.k8s.app
 
-import io.hyubuki.app.entity.PersonEntity
-import io.hyubuki.app.repository.PersonRepository
+import io.hyubuki.entity.PersonEntity
+import io.hyubuki.repository.PersonRepository
 import jakarta.annotation.PostConstruct
 import jakarta.servlet.http.Cookie
 import jakarta.servlet.http.HttpServletRequest

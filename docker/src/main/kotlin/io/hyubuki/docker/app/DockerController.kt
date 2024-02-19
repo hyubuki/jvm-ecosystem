@@ -1,7 +1,7 @@
 package io.hyubuki.docker.app
 
-import io.hyubuki.app.entity.PersonEntity
-import io.hyubuki.app.repository.PersonRepository
+import io.hyubuki.entity.PersonEntity
+import io.hyubuki.repository.PersonRepository
 import jakarta.annotation.PostConstruct
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.web.bind.annotation.GetMapping

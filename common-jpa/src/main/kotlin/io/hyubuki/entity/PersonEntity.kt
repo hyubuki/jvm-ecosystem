@@ -1,4 +1,4 @@
-package io.hyubuki.app.entity
+package io.hyubuki.entity
 
 import jakarta.persistence.*
 import java.util.*
